@@ -1,0 +1,50 @@
+.Box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+    padding: 20px 40px;
+    background-color: var(--light-color);
+    border-radius: 5px;
+}
+
+.Box .Box__Info{
+    flex-basis: 70%;
+}
+
+.Box .Box__Info-para {
+    font-size: 24px;
+    text-transform: capitalize;
+    color: var(--para-color);
+    line-height: 40px;
+    font-weight: 600;
+}
+.Box .Box__Info-span {
+    font-size: 18px;
+    color: var(--main-color-darker);
+    text-transform: capitalize;
+    line-height: 40px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+
+@media(max-width : 767px) {
+    .Box {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 60px;
+        gap: 10px;
+        margin: 50px 0;
+    }
+    .Box .Box__Info-para {
+        margin-bottom: 30px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .Box .Box__Info-span {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+}

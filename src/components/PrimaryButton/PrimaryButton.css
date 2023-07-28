@@ -1,0 +1,11 @@
+.PrimaryButton {
+    padding: 15px 25px;
+    color: white;
+    font-size: 22px;
+    background-color: var(--main-color);
+    text-transform: capitalize;
+    border-radius: 5px;
+    width: max-content;
+}
+
+

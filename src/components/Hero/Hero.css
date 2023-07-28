@@ -29,7 +29,7 @@
     border-right: 1px solid var(--main-color);
     overflow: hidden;
     white-space: nowrap;
-    animation: control-width 4s steps(30) 1s both , blink .5s infinite;
+    animation: control-width1 4s steps(30) 1s both , blink .5s infinite;
 }
 .Hero .Hero__Info p {
     color: var(--para-color);
